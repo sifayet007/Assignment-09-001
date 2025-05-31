@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Sylhet Flood Emergency Aid",
+    "image": "https://example.com/images/sylhet-flood.jpg",
+    "description": "Emergency support for people affected by the severe flooding in Sylhet.",
+    "status": "Ongoing",
+    "contactInfo": "contact@sylhetaid.org",
+    "division": "Sylhet"
+  },
+  {
+    "id": 2,
+    "title": "Education Support for Flood-Affected Children",
+    "image": "https://example.com/images/sylhet-education.jpg",
+    "description": "Helping children return to school after recent flood damage in Sylhet.",
+    "status": "Ongoing",
+    "contactInfo": "education@sylhetaid.org",
+    "division": "Sylhet"
+  },
+  {
+    "id": 3,
+    "title": "Winter Blanket Drive - Rangpur",
+    "image": "https://example.com/images/rangpur-blankets.jpg",
+    "description": "Distributing warm blankets to poor families in Rangpur.",
+    "status": "Ongoing",
+    "contactInfo": "support@rangpurcare.org",
+    "division": "Rangpur"
+  },
+  {
+    "id": 4,
+    "title": "Food Packets for Day Laborers",
+    "image": "https://example.com/images/rangpur-food.jpg",
+    "description": "Delivering food to day laborers struggling in rural Rangpur.",
+    "status": "Completed",
+    "contactInfo": "food@rangpurcare.org",
+    "division": "Rangpur"
+  },
+  {
+    "id": 5,
+    "title": "School Bag Distribution for Slum Kids",
+    "image": "https://example.com/images/dhaka-schoolbags.jpg",
+    "description": "Supporting slum children with essential school supplies in Dhaka.",
+    "status": "Ongoing",
+    "contactInfo": "donate@dhakakids.org",
+    "division": "Dhaka"
+  },
+  {
+    "id": 6,
+    "title": "Urban Homeless Shelter Project",
+    "image": "https://example.com/images/dhaka-shelter.jpg",
+    "description": "Building temporary shelters for homeless people in Dhaka city.",
+    "status": "Pending",
+    "contactInfo": "help@dhakarelief.net",
+    "division": "Dhaka"
+  },
+  {
+    "id": 7,
+    "title": "Cyclone Recovery Fund - Barisal",
+    "image": "https://example.com/images/barisal-cyclone.jpg",
+    "description": "Raising money to rebuild homes destroyed by cyclone in Barisal.",
+    "status": "Ongoing",
+    "contactInfo": "relief@barisalhope.org",
+    "division": "Barisal"
+  },
+  {
+    "id": 8,
+    "title": "Clean Water Project for Barisal Villages",
+    "image": "https://example.com/images/barisal-water.jpg",
+    "description": "Installing deep tube wells to ensure clean water in remote Barisal areas.",
+    "status": "Completed",
+    "contactInfo": "water@barisalclean.org",
+    "division": "Barisal"
+  },
+  {
+    "id": 9,
+    "title": "Medical Camp in Chittagong Hills",
+    "image": "https://example.com/images/chittagong-medical.jpg",
+    "description": "Organizing free health checkups and medicine for hill tribe communities.",
+    "status": "Ongoing",
+    "contactInfo": "health@chittagongaid.org",
+    "division": "Chittagong"
+  },
+  {
+    "id": 10,
+    "title": "Nutrition Support for Pregnant Women",
+    "image": "https://example.com/images/chittagong-nutrition.jpg",
+    "description": "Delivering nutritional kits for pregnant women in rural Chittagong.",
+    "status": "Pending",
+    "contactInfo": "nutrition@chittagongcare.org",
+    "division": "Chittagong"
+  },
+  {
+    "id": 11,
+    "title": "Farmer Equipment Support - Khulna",
+    "image": "https://example.com/images/khulna-farm.jpg",
+    "description": "Providing tools and seeds to flood-affected farmers in Khulna.",
+    "status": "Ongoing",
+    "contactInfo": "support@khulnaagro.org",
+    "division": "Khulna"
+  },
+  {
+    "id": 12,
+    "title": "Tree Plantation Campaign",
+    "image": "https://example.com/images/khulna-trees.jpg",
+    "description": "Promoting green villages through tree planting in Khulna region.",
+    "status": "Completed",
+    "contactInfo": "green@khulnacare.org",
+    "division": "Khulna"
+  }
+]
