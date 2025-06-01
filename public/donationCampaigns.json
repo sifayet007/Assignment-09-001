@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Sylhet Flood Emergency Aid",
-    "image": "https://example.com/images/sylhet-flood.jpg",
+    "image": "https://readdy.ai/api/search-image?query=Volunteers%20distributing%20emergency%20supplies%20to%20flood%20victims%2C%20relief%20packages%20being%20handed%20out%2C%20temporary%20shelter%20area%2C%20people%20receiving%20aid%2C%20organized%20relief%20effort%2C%20community%20coming%20together%2C%20hope%20amid%20disaster%2C%20clean%20water%20and%20food%20supplies&width=400&height=250&seq=5&orientation=landscape",
     "description": "Emergency support for people affected by the severe flooding in Sylhet.",
     "status": "Ongoing",
     "contactInfo": "contact@sylhetaid.org",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Education Support for Flood-Affected Children",
-    "image": "https://example.com/images/sylhet-education.jpg",
+    "image": "https://readdy.ai/api/search-image?query=Children%20receiving%20nutritious%20meals%20at%20a%20community%20center%2C%20volunteers%20serving%20food%2C%20children%20sitting%20at%20tables%20eating%20healthy%20food%2C%20bright%20and%20clean%20environment%2C%20genuine%20smiles%2C%20diverse%20group%20of%20children%2C%20plates%20with%20colorful%20nutritious%20food&width=400&height=250&seq=4&orientation=landscape",
     "description": "Helping children return to school after recent flood damage in Sylhet.",
     "status": "Ongoing",
     "contactInfo": "education@sylhetaid.org",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Winter Blanket Drive - Rangpur",
-    "image": "https://example.com/images/rangpur-blankets.jpg",
+    "image": "https://readdy.ai/api/search-image?query=Construction%20of%20a%20new%20school%20building%20in%20progress%2C%20workers%20and%20community%20volunteers%20working%20together%2C%20building%20materials%2C%20partially%20completed%20structure%2C%20coastal%20community%20setting%2C%20hopeful%20atmosphere%2C%20children%20watching%20the%20construction%2C%20bright%20daylight&width=400&height=250&seq=6&orientation=landscape",
     "description": "Distributing warm blankets to poor families in Rangpur.",
     "status": "Ongoing",
     "contactInfo": "support@rangpurcare.org",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Food Packets for Day Laborers",
-    "image": "https://example.com/images/rangpur-food.jpg",
+    "image": "https://readdy.ai/api/search-image?query=A%20group%20of%20happy%20rural%20children%20in%20a%20classroom%20with%20books%20and%20educational%20materials%2C%20bright%20natural%20lighting%2C%20colorful%20classroom%20decorations%2C%20children%20wearing%20simple%20uniforms%2C%20rural%20school%20setting%20with%20basic%20facilities%2C%20genuine%20smiles%2C%20hopeful%20atmosphere&width=400&height=250&seq=1&orientation=landscape  ",
     "description": "Delivering food to day laborers struggling in rural Rangpur.",
     "status": "Completed",
     "contactInfo": "food@rangpurcare.org",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "School Bag Distribution for Slum Kids",
-    "image": "https://example.com/images/dhaka-schoolbags.jpg",
+    "image": "https://readdy.ai/api/search-image?query=Elderly%20patients%20receiving%20medical%20care%20in%20a%20clean%20clinic%20setting%2C%20medical%20professionals%20providing%20attentive%20care%2C%20medical%20supplies%20and%20equipment%20visible%2C%20warm%20lighting%2C%20compassionate%20interaction%20between%20healthcare%20workers%20and%20elderly%20patients%2C%20hopeful%20atmosphere&width=400&height=250&seq=2&orientation=landscape",
     "description": "Supporting slum children with essential school supplies in Dhaka.",
     "status": "Ongoing",
     "contactInfo": "donate@dhakakids.org",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "Urban Homeless Shelter Project",
-    "image": "https://example.com/images/dhaka-shelter.jpg",
+    "image": "https://readdy.ai/api/search-image?query=A%20newly%20constructed%20simple%20shelter%20for%20homeless%20families%2C%20modest%20but%20clean%20living%20space%2C%20basic%20furniture%2C%20families%20moving%20in%20with%20belongings%2C%20community%20volunteers%20helping%2C%20hopeful%20atmosphere%2C%20natural%20lighting%2C%20safe%20environment%20for%20children%20and%20adults&width=400&height=250&seq=3&orientation=landscape",
     "description": "Building temporary shelters for homeless people in Dhaka city.",
     "status": "Pending",
     "contactInfo": "help@dhakarelief.net",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "title": "Cyclone Recovery Fund - Barisal",
-    "image": "https://example.com/images/barisal-cyclone.jpg",
+    "image": "https://readdy.ai/api/search-image?query=Modern%20school%20library%20with%20children%20reading%20books%2C%20bookshelves%20filled%20with%20colorful%20books%2C%20comfortable%20reading%20areas%2C%20natural%20lighting%2C%20children%20of%20diverse%20backgrounds%20engaged%20in%20reading%2C%20bright%20and%20welcoming%20atmosphere&width=350&height=250&seq=12&orientation=landscape",
     "description": "Raising money to rebuild homes destroyed by cyclone in Barisal.",
     "status": "Ongoing",
     "contactInfo": "relief@barisalhope.org",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "title": "Clean Water Project for Barisal Villages",
-    "image": "https://example.com/images/barisal-water.jpg",
+    "image": "https://readdy.ai/api/search-image?query=Medical%20professionals%20providing%20care%20at%20a%20rural%20medical%20camp%2C%20patients%20being%20examined%2C%20medical%20equipment%2C%20organized%20healthcare%20setting%2C%20diverse%20medical%20staff%2C%20patients%20waiting%20in%20line%2C%20outdoor%20medical%20camp%20with%20tents%2C%20natural%20lighting&width=350&height=250&seq=13&orientation=landscape",
     "description": "Installing deep tube wells to ensure clean water in remote Barisal areas.",
     "status": "Completed",
     "contactInfo": "water@barisalclean.org",
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "title": "Nutrition Support for Pregnant Women",
-    "image": "https://example.com/images/chittagong-nutrition.jpg",
+    "image": "https://readdy.ai/api/search-image?query=Clean%20water%20flowing%20from%20a%20newly%20installed%20water%20system%20in%20a%20village%2C%20children%20and%20adults%20collecting%20clean%20water%2C%20water%20purification%20equipment%2C%20smiling%20villagers%2C%20rural%20setting%2C%20sunny%20day%2C%20celebration%20of%20clean%20water%20access&width=350&height=250&seq=14&orientation=landscape",
     "description": "Delivering nutritional kits for pregnant women in rural Chittagong.",
     "status": "Pending",
     "contactInfo": "nutrition@chittagongcare.org",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "title": "Farmer Equipment Support - Khulna",
-    "image": "https://example.com/images/khulna-farm.jpg",
+    "image": "https://readdy.ai/api/search-image?query=Newly%20constructed%20emergency%20shelters%20for%20flood%20victims%2C%20simple%20but%20sturdy%20structures%20with%20basic%20amenities%2C%20surrounded%20by%20recovering%20landscape%2C%20people%20moving%20in%20with%20their%20belongings%2C%20volunteers%20helping%20families%2C%20atmosphere%20of%20hope%20and%20resilience&width=600&height=400&seq=3&orientation=landscape",
     "description": "Providing tools and seeds to flood-affected farmers in Khulna.",
     "status": "Ongoing",
     "contactInfo": "support@khulnaagro.org",
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "title": "Tree Plantation Campaign",
-    "image": "https://example.com/images/khulna-trees.jpg",
+    "image": "https://readdy.ai/api/search-image?query=Relief%20workers%20providing%20aid%20after%20a%20cyclone%2C%20distributing%20supplies%20to%20affected%20families%2C%20damaged%20landscape%20being%20restored%2C%20emergency%20tents%20and%20relief%20stations%2C%20people%20helping%20each%20other%20recover%2C%20atmosphere%20of%20community%20resilience%20and%20support&width=600&height=400&seq=5&orientation=landscape",
     "description": "Promoting green villages through tree planting in Khulna region.",
     "status": "Completed",
     "contactInfo": "green@khulnacare.org",

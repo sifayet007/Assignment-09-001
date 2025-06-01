@@ -1,121 +1,110 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import slider1 from "../assets/blanket-distribution-rangpur-1.jpg";
-
+import { LuLockKeyhole } from "react-icons/lu";
+import banner2 from "../assets/blanket-distribution-rangpur-10.jpg";
+import { useState } from "react";
 const Banner = () => {
+  const [total, setTotal] = useState(0);
+  const [input, setInput] = useState("");
+  const donationAmountHandel = (e) => {
+    e.preventDefault();
+
+    const amount = parseFloat(input);
+    console.log(typeof amount);
+
+    if (!isNaN(amount) && amount > 0) {
+      setTotal(amount + total);
+      setInput("");
+    }
+  };
+
   return (
-    <section>
-      <div className="carousel w-full h-full mt-[75px]">
-        <div id="slide1" className="carousel-item relative w-full">
-          <img className="w-full h-[500px]" src={slider1} />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide4" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide2" className="btn btn-circle">
-              ❯
-            </a>
+    <section id="donate" className="mt-28 mb-10 lg:px-28 md:px-12 px-5">
+      <h1 className="lg:text-5xl md:text-3xl text-2xl leading-normal font-bold">
+        Serving the Underserved <br /> Individual to Community
+      </h1>
+      <div className="lg:flex gap-10  ">
+        <div className="flex items-center gap-5 md:gap-10">
+          <div>
+            <img
+              className=" md:w-[303px] lg:h-[345px] md:h-[300px] w-[250px] h-[250px] rounded-lg"
+              src={banner2}
+              alt=""
+            />
+          </div>
+          <div>
+            <p>
+              Welcome to the CNK Foundation, where we empower underserved,
+              <br />
+              vulnerable, and special needs populations to change their world.
+              <br />
+              Join us in creating a more inclusive and equitable society.
+            </p>
+            <button className="text-green-500 py-2 px-6 border-2 border-green-500 rounded-full mt-10">
+              Donate naw
+            </button>
           </div>
         </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-            className="w-full"
-          />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide1" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide3" className="btn btn-circle">
-              ❯
-            </a>
+        <div className="px-6 py-10  shadow-xl rounded-md">
+          <div className="text-center">
+            <p className="font-semibold text-xl">Your Donation</p>
+            <h1 className=" text-xl">{total} Tk</h1>
           </div>
-        </div>
-        <div id="slide3" className="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-            className="w-full"
-          />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide2" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide4" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide4" className="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-            className="w-full"
-          />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide3" className="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" className="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div className="carousel w-full">
-          <div id="slide1" className="carousel-item relative w-full">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-              className="w-full"
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide4" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide2" className="btn btn-circle">
-                ❯
-              </a>
+          <form className="mt-7" onSubmit={donationAmountHandel} action="">
+            <div>
+              <div className="space-x-5 flex">
+                <div className="w-full">
+                  <input
+                    className="py-[14px] pl-[14px] rounded-md bg-slate-200  w-full  focus:outline-none"
+                    type="text"
+                    name="firstName"
+                    required
+                    placeholder="Your full name"
+                    id=""
+                  />
+                </div>
+                <div className="w-full">
+                  <select
+                    className="py-[14px] px-5 rounded-md bg-slate-200   focus:outline-none w-full"
+                    name=""
+                    id=""
+                  >
+                    <option value="">Select division</option>
+                    <option value="">Sylhet</option>
+                    <option value="">Dhaka</option>
+                    <option value="">Rangpur</option>
+                    <option value="">Barosl</option>
+                    <option value="">Chittagong</option>
+                    <option value="">Noakhli</option>
+                  </select>
+                </div>
+              </div>
+
+              <div className="mt-[30px] flex">
+                <input
+                  className="py-[14px] pl-[14px] rounded-md bg-slate-200  w-full  focus:outline-none"
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Email adders"
+                  id=""
+                />
+              </div>
+              <div className="mt-[30px] flex">
+                <input
+                  onChange={(e) => setInput(e.target.value)}
+                  className="py-[14px] pl-[14px] rounded-md bg-slate-200  w-full  focus:outline-none"
+                  type="text"
+                  name="amount"
+                  value={input}
+                  required
+                  placeholder="Amount"
+                  id=""
+                />
+              </div>
+              <button className="text-orange-500 py-2 px-6 border-2 border-orange-500 rounded-full mt-10">
+                Donate naw
+              </button>
             </div>
-          </div>
-          <div id="slide2" className="carousel-item relative w-full">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-              className="w-full"
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide1" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide3" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="slide3" className="carousel-item relative w-full">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-              className="w-full"
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide2" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide4" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="slide4" className="carousel-item relative w-full">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-              className="w-full"
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide3" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide1" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </section>

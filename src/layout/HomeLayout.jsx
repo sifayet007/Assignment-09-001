@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import CardSection from "../components/CardSection";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
@@ -13,7 +14,9 @@ const HomeLayout = () => {
           <Banner />
         </section>
       </header>
-      <main></main>
+      <main>
+        <CardSection />
+      </main>
       <footer>
         <Footer />
       </footer>
