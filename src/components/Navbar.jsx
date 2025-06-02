@@ -8,7 +8,6 @@ import { FaUser } from "react-icons/fa6";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   const [showProfile, setShowProfile] = useState(false);
-  console.log(showProfile);
 
   const { user, logOut } = useContext(AuthContext);
   return (

@@ -3,9 +3,11 @@ import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 import toast from "react-hot-toast";
+import { FcGoogle } from "react-icons/fc";
 
 const Login = () => {
-  const { loginUser, setUser, passwordRest } = useContext(AuthContext);
+  const { loginUser, setUser, passwordRest, handelLoginWithGoogle } =
+    useContext(AuthContext);
   const [show, setShow] = useState(true);
   const navigate = useNavigate();
   const emailRef = useRef();
@@ -104,6 +106,11 @@ const Login = () => {
                 Register now
               </Link>
             </p>
+          </div>
+          <div className="flex justify-center py-3">
+            <button onClick={handelLoginWithGoogle}>
+              <FcGoogle className="w-12 h-12" />
+            </button>
           </div>
         </div>
       </div>

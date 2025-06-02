@@ -15,7 +15,7 @@ const Banner = () => {
     if (!isNaN(amount) && amount > 0) {
       setTotal(amount + total);
       setInput("");
-      toast.success("Your donate success");
+      toast.success("Thanks donate success");
     }
   };
 
