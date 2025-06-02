@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Register = () => {
   const [show, setShow] = useState(true);
@@ -33,6 +34,7 @@ const Register = () => {
           .then(() => {
             setUser({ ...result.user, displayName: name, photoURL: photo });
             navigate("/");
+            toast.success("Register successful!");
           })
           .catch(() => {});
       })
@@ -40,6 +42,7 @@ const Register = () => {
       .catch((err) => {
         const error = err.message;
         const errorcode = err.code;
+        toast.error(`${error}`);
         console.log(error);
         console.log(errorcode);
       });

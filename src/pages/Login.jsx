@@ -1,12 +1,14 @@
-import { useContext, useState } from "react";
+import { useContext, useRef, useState } from "react";
 import { IoMdEye, IoMdEyeOff } from "react-icons/io";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Login = () => {
-  const { loginUser, setUser } = useContext(AuthContext);
+  const { loginUser, setUser, passwordRest } = useContext(AuthContext);
   const [show, setShow] = useState(true);
   const navigate = useNavigate();
+  const emailRef = useRef();
   const handelLoginFrom = (e) => {
     e.preventDefault();
     const form = new FormData(e.target);
@@ -19,12 +21,25 @@ const Login = () => {
         console.log(user);
         setUser(user);
         navigate("/");
+        toast.success("Login Successful");
       })
       .catch((error) => {
         const err = error.message;
         console.log(err);
       });
   };
+  const resetPassword = (e) => {
+    e.preventDefault();
+    const email = emailRef.current.value;
+    if (!email) {
+      console.log("please provide a valid email address");
+    } else {
+      passwordRest(email).then(() => {
+        toast.success("password Resat email sent, please check your email");
+      });
+    }
+  };
+
   return (
     <div className="md:flex">
       <div className="hidden w-full md:flex justify-center items-center h-screen bg-blue-900">
@@ -44,6 +59,7 @@ const Login = () => {
                 className="py-[14px] pl-[14px] rounded-full border-2 w-full focus:outline-none"
                 type="email"
                 name="email"
+                ref={emailRef}
                 required
                 placeholder="Email adders"
                 id="email"
@@ -70,7 +86,9 @@ const Login = () => {
                 <input type="checkbox" name="" id="" />
                 <span>Remember me</span>
               </div>
-              <button className="hover:underline">Forget password</button>
+              <button onClick={resetPassword} className="hover:underline">
+                Forget password
+              </button>
             </div>
 
             <div className="px-5">

@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
       </div>
       {show && (
-        <div className="flex flex-col font-semibold absolute right-5 shadow-lg py-4   top-[5rem] md:hidden w-72 px-5 rounded-lg">
+        <div className="flex flex-col font-semibold absolute right-5 shadow-lg py-4  bg-white  top-[5rem] md:hidden w-72 px-5 rounded-lg">
           <NavLink
             to="/"
             className="  flex justify-start items-center gap-4 font-semibold py-2 pl-5  hover:text-white rounded-md hover:bg-blue-600"
@@ -52,7 +52,7 @@ const Navbar = () => {
           <div className="relative">
             <img
               onClick={() => setShowProfile(!showProfile)}
-              className="w-12 rounded-full cursor-pointer"
+              className="w-12 h-12 rounded-full cursor-pointer"
               src={user.photoURL}
               alt=""
             />

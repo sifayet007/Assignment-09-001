@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Cards = ({ donateCard }) => {
   console.log(donateCard);
   const { title, image, division, contactInfo, description } = donateCard;
+  useEffect(() => {
+    Aos.init({
+      duration: 300,
+      once: true,
+    });
+  }, []);
 
   return (
-    <div className="shadow-md rounded-xl">
+    <div data-aos="fade-up" className="shadow-md rounded-xl">
       <img className="h-80 w-full rounded-t-xl" src={image} alt="" />
       <div className="p-5">
         <div className="flex justify-between items-center mt-6">

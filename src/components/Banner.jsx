@@ -1,6 +1,8 @@
 import { LuLockKeyhole } from "react-icons/lu";
 import banner2 from "../assets/blanket-distribution-rangpur-10.jpg";
 import { useState } from "react";
+import toast from "react-hot-toast";
+
 const Banner = () => {
   const [total, setTotal] = useState(0);
   const [input, setInput] = useState("");
@@ -13,6 +15,7 @@ const Banner = () => {
     if (!isNaN(amount) && amount > 0) {
       setTotal(amount + total);
       setInput("");
+      toast.success("Your donate success");
     }
   };
 
