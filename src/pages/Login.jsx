@@ -25,7 +25,7 @@ const Login = () => {
       })
       .catch((error) => {
         const err = error.message;
-        console.log(err);
+        toast.error(`${err}`);
       });
   };
   const resetPassword = (e) => {
