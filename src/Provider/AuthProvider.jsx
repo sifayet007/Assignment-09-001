@@ -9,6 +9,7 @@ import {
   signOut,
   updateProfile,
 } from "firebase/auth";
+import toast from "react-hot-toast";
 // eslint-disable-next-line react-refresh/only-export-components
 export const AuthContext = createContext(null);
 const auth = getAuth(app);
@@ -30,7 +31,7 @@ const AuthProvider = ({ children }) => {
   };
   const logOut = () => {
     setLoading(true);
-    return signOut(auth);
+    return signOut(auth), toast.success("log out success");
   };
   const passwordRest = (email) => {
     setLoading(true);
